@@ -58,7 +58,7 @@ You can run the entire application using Docker Compose without worrying about d
 ### Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/customer-segmentation.git](https://github.com/YOUR_USERNAME/customer-segmentation.git)
+    git clone https://github.com/Mohamedtahaahmedtaha/Ecommerce
     cd customer-segmentation
     ```
 
