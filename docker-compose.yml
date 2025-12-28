@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./api
+    container_name: customer_segmentation_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # This connects your local 'models' folder to the container
+      - ./models:/app/models
+    networks:
+      - ai_network
+
+  ui:
+    build: ./ui
+    container_name: customer_segmentation_ui
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    networks:
+      - ai_network
+
+networks:
+  ai_network:
+    driver: bridge
