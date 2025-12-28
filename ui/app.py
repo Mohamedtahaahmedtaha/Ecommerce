@@ -10,7 +10,7 @@ st.set_page_config(
 
 # Constants
 # 'api' refers to the docker service name defined in docker-compose.yml
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = "http://localhost:8000"
 
 # Header
 st.title("E-Commerce Customer Segmentation")
