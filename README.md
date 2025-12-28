@@ -11,7 +11,7 @@ This project is an End-to-End Machine Learning application designed to analyze c
 
 The system is fully containerized using **Docker** and deployed as a microservices architecture consisting of a **FastAPI** backend and a **Streamlit** frontend.
 
- **Live Demo Available Here: ([https://huggingface.co/spaces/YOUR_USERNAME/customer-segmentation](https://huggingface.co/spaces/LluisTaha/customer-segmentation))**
+ **Live Demo Available Here: (https://huggingface.co/spaces/LluisTaha/customer-segmentation))**
 
 ---
 
